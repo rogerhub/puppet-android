@@ -8,4 +8,9 @@ class android {
     content => template('android/env.sh.erb'),
     require => File[$boxen::config::envdir],
   }
+
+  file { "${boxen::config::envdir}/android.fish":
+    content => template('android/env.fish.erb'),
+    require => File[$boxen::config::envdir],
+  }
 }
