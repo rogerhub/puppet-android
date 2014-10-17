@@ -29,7 +29,7 @@ ensure a `build-tools` is installed
 android::build_tools { '18.1.1': }
 ```
 
-The `3`, `4`, `7`, `8`, `10`, `11`, `12`, `13`, `14`, `15`, `16`, `17`, `18` , `19` and `20` version is also available:
+The `3`, `4`, `7`, `8`, `10`, `11`, `12`, `13`, `14`, `15`, `16`, `17`, `18` , `19` , `20`, and `21` version is also available:
 ```puppet
 include android::19
 ```
