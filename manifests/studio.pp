@@ -4,10 +4,10 @@
 # Usage:
 #
 #     include android::studio
-class android::studio($release = '0.4.6', $version = '133.1028713') {
+class android::studio($release = '1.0.0', $version = '135.1629389') {
 
   package { 'Android Studio':
     provider => 'appdmg',
-    source   => "http://dl.google.com/android/studio/install/${release}/android-studio-bundle-${version}-mac.dmg"
+    source   => "http://dl.google.com/android/studio/install/${release}/android-studio-ide-${version}.dmg"
   }
 }

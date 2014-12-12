@@ -10,7 +10,7 @@ describe 'android::studio' do
   it do
     should contain_package('Android Studio').with({
       :provider => 'appdmg',
-      :source   => "http://dl.google.com/android/studio/install/0.4.6/android-studio-bundle-133.1028713-mac.dmg"
+      :source   => "http://dl.google.com/android/studio/install/1.0.0/android-studio-ide-135.1629389.dmg"
     })
   end
 end
